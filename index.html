@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="An original isometric game world in development by AndriiEagle. Preview a tiny standalone terrain experiment." />
+  <meta name="theme-color" content="#09121b" />
+  <title>Game World Lab | AndriiEagle</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="aurora" aria-hidden="true"></div>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Game World Lab home"><span class="brand-icon">✦</span><span>ANDRII<span class="accent">EAGLE</span> <span class="soft">/ LAB</span></span></a>
+      <nav aria-label="Main navigation"><a href="#prototype">Prototype</a><a href="#vision">Vision</a><a class="nav-github" href="https://github.com/AndriiEagle" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav>
+    </header>
+    <main id="top">
+      <section class="hero">
+        <p class="eyebrow"><span class="live-dot"></span> OPEN WEB EXPERIMENT <span class="eyebrow-divider">/</span> EARLY STAGE</p>
+        <h1>A world is<br /><em>taking shape.</em></h1>
+        <p class="hero-copy">A small public window into an original 2D isometric universe in development. The playable game is not released. This page is an independent visual prototype.</p>
+        <div class="hero-actions"><a class="button primary" href="#prototype">Explore the terrain <span aria-hidden="true">↘</span></a><a class="button secondary" href="#vision">Read the vision <span aria-hidden="true">→</span></a></div>
+        <div class="hero-footer"><span><b>01</b> / RENDERING STUDY</span><span><b>03</b> / PLANNED FACTIONS</span><span><b>∞</b> / POSSIBILITIES</span></div>
+      </section>
+      <section class="prototype-section" id="prototype" aria-labelledby="prototype-title">
+        <div class="section-head"><div><p class="kicker">EXPERIMENT 001</p><h2 id="prototype-title">Isometric terrain</h2></div><span class="status-chip">Interactive study</span></div>
+        <div class="canvas-container"><canvas id="world" width="960" height="540" aria-label="Small interactive isometric terrain prototype. Click a tile or use keyboard arrows to move a marker."></canvas><div class="canvas-label"><span class="live-dot"></span> LOCAL SIMULATION / NO API</div></div>
+        <div class="instructions"><span><strong>Click</strong> a tile to relocate the explorer</span><span><strong>W A S D</strong> or arrow keys to move</span><span>Desktop and touch-friendly</span></div>
+        <p class="disclaimer">This is a standalone rendering experiment, not a preview of finished game mechanics, art or online features.</p>
+      </section>
+      <section class="vision-section" id="vision" aria-labelledby="vision-title">
+        <p class="kicker">THE DIRECTION</p><h2 id="vision-title">One world. Different ways to play.</h2>
+        <div class="features"><article class="feature"><span class="feature-number">01 /</span><h3>Living systems</h3><p>Economy, research and local simulation designed to make the world feel reactive.</p><span class="planned">Concept</span></article><article class="feature"><span class="feature-number">02 /</span><h3>Different perspectives</h3><p>A vision for moving between strategic, exploratory and direct-control viewpoints.</p><span class="planned">Concept</span></article><article class="feature"><span class="feature-number">03 /</span><h3>Three asymmetric factions</h3><p>Different identities, abilities and approaches, rather than interchangeable skins.</p><span class="planned">Concept</span></article></div>
+      </section>
+    </main>
+    <footer><span>© 2026 AndriiEagle. Independent work in progress.</span><span>BUILT TO EVOLVE / v0.1</span></footer>
+  </div>
+  <script src="./script.js" defer></script>
+</body>
+</html>
